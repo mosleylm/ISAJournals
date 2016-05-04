@@ -28,4 +28,7 @@ ExcelGeneration:
   - takes journal objects and creates an excel output file using apache poi
   - file directory/name passed along with array of journal objects
   - file directory/name detirmine excel save location and file name
+
+#HOW TO EXPORT:
+  - using eclipse right click project name and click "export" > Java > runnable JAR file > (export destination includes application name) > check extract required libraries into jar > FINISH > it will say there are errors due to windowbuilder, but ignore them and hit ok
   
