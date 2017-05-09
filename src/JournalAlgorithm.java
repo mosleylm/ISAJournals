@@ -54,9 +54,9 @@ public class JournalAlgorithm {
 	       try
 	       {
 
-	           String url = "jdbc:mysql://10.36.0.145:3306/isajournals?allowMultiQueries=true";
+	           String url = "**********************";
 	           Class.forName ("com.mysql.jdbc.Driver");
-	           conn = (Connection) DriverManager.getConnection (url,"root","kanmos");
+	           conn = (Connection) DriverManager.getConnection (url,"*****","**********");
 	           System.out.println ("Database connection established");
 	       }
 	       catch (Exception e)
